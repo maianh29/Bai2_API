@@ -151,19 +151,44 @@
     <!----------------API---------------->
     <!-- Facebook SDK -->
     <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous"
-    src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v22.0&appId=1413586913343475&autoLogAppEvents=1">
+<script>
+  window.fbAsyncInit = function () {
+    FB.init({
+      appId: '1413586913343475',
+      xfbml: true,
+      version: 'v22.0',
+      cookie: false 
+    });
+
+    // Lắng nghe sự kiện Like
+    FB.Event.subscribe('edge.create', function(response) {
+      console.log("Đã nhấn Like: ", response);
+      reloadLikeButton();
+    });
+  };
+
+  // Load SDK
+  (function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v22.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+
+  // Hàm reload lại nút Like
+  function reloadLikeButton() {
+    setTimeout(function() {
+      FB.XFBML.parse(); // Tải lại plugin Facebook
+    }, 500); // Đợi 0.5s để cập nhật trạng thái
+  }
 </script>
 
-
-    <!-- Nút Like Facebook -->
-    <div class="fb-like" 
-         data-href="https://maianh29.github.io/Bai2_API/wwwroot/index.html"
-         data-width="" 
-         data-layout="button_count" 
-         data-action="like" 
-         data-size="small" 
-         data-share="true">
-    </div>
+<!-- Nút Like -->
+<div class="fb-like"
+     data-href="https://maianh29.github.io/Bai2_API/wwwroot/index.html"
+     data-width="80" data-layout="button_count"
+     data-action="like" data-size="small" data-share="true">
+</div>
 </body>
 </html>
