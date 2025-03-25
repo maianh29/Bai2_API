@@ -149,33 +149,31 @@
     <div class="price-box"><b style="margin-left:10px;">Giá bán: </b><p class="xanh" style="font-size: 25px; display:inline;">21.000₫</p></div>
 
     <!----------------API---------------->
-    <!--fb SDK-->
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" 
-        src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v22.0&appId=1413586913343475">
-    </script>
+    <!-- Facebook SDK -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function () {
+    FB.init({
+      appId: '1166250038496306', // App ID của bạn
+      xfbml: true,
+      version: 'v22.0'
+    });
+  };
 
-    <script>
-        window.fbAsyncInit = function () {
-            FB.init({
-                appId: '1413586913343475', // Thay bằng App ID của bạn
-                xfbml: true,
-                version: 'v22.0'
-            });
-        };
+  (function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v22.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
 
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "https://connect.facebook.net/vi_VN/sdk.js";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-    <!--Hiển thị nút Like-->
-    <div class="fb-like" data-href="https://maianh29.github.io/Bai2_API/wwwroot/index.html"
-         data-width="80" data-layout="box_count" data-action="like"
-         data-size="small" data-share="true">
-    </div>
+<!-- Nút Like -->
+<div class="fb-like"
+     data-href="https://maianh29.github.io/Bai2_API/wwwroot/index.html"
+     data-width="80" data-layout="button_count"
+     data-action="like" data-size="small" data-share="true">
+</div>
 </body>
 </html>
