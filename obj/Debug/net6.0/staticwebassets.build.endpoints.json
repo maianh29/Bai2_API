@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "milk.aug4mz37t0.html",
+      "AssetFile": "milk.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vp8GMM34I67hqCVdV5ATf9oePwKWG5b8THzc1Q1JyiI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 17:49:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aug4mz37t0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vp8GMM34I67hqCVdV5ATf9oePwKWG5b8THzc1Q1JyiI="
+        },
+        {
+          "Name": "label",
+          "Value": "milk.html"
+        }
+      ]
+    },
+    {
+      "Route": "milk.html",
+      "AssetFile": "milk.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vp8GMM34I67hqCVdV5ATf9oePwKWG5b8THzc1Q1JyiI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 17:49:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vp8GMM34I67hqCVdV5ATf9oePwKWG5b8THzc1Q1JyiI="
+        }
+      ]
+    }
+  ]
+}

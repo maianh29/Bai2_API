@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Lốc 3 chai sữa tươi tiệt trùng Lothamilk sô cô la 180ml</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #faf7f3;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container,.a {
+            max-width: 1000px;
+            margin: auto;
+            background-color: #fff;
+            padding: 0 10px;
+            display: flex;
+        }
+        /* Cột trái */
+        .left-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 20px;
+        }
+
+        .product-images img {
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+            border: 1px solid #ddd;
+            object-fit: cover;
+        }
+        /* Cột phải */
+        .right-column {
+            flex: 2;
+        }
+
+        .product-title {
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .distributor {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+            .distributor strong, .xanh {
+                color: green;
+            }
+
+        .product-description {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #444;
+            line-height: 1.5;
+        }
+
+        .price-box {
+
+            background-color: #e0ffe0;
+            display: inline-block;
+            font-size: 18px;
+            color: #333;
+            width: 700px;
+            line-height:100px;
+            margin-left:21px;
+            align-items:center
+        }
+
+
+        .share-buttons button {
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 8px 12px;
+            margin-right: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+            .share-buttons button:hover {
+                background-color: #f0f0f0;
+            }
+
+        .left-column {
+            flex: 1;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: auto auto;
+            gap: 10px;
+            margin-right: 20px;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!--------------HTML-------------->
+    <div class="a">
+        <p>Lốc 3 chai sữa tươi tiệt trùng Lothamilk sô cô la 180ml</p>
+    </div>
+    <div class="container">
+
+        <!-- Cột trái -->
+        <div class="left-column">
+            <div class="small-item">
+                <img src="https://salt.tikicdn.com/cache/60x60/ts/product/60/e4/4e/31686a07d7828e5bdf824b390a6290ca.jpg.webp" alt="">
+                <div>Lốc 3 chai sữa tươi tiệt trùng Lothamilk sô cô la 180ml</div>
+            </div>
+            <div class="small-item">
+                <img src="https://salt.tikicdn.com/cache/60x60/ts/product/60/e4/4e/31686a07d7828e5bdf824b390a6290ca.jpg.webp" alt="">
+                <div>Lốc 3 chai sữa tươi tiệt trùng Lothamilk sô cô la 180ml</div>
+            </div>
+            <div class="small-item">
+                <img src="https://salt.tikicdn.com/cache/60x60/ts/product/60/e4/4e/31686a07d7828e5bdf824b390a6290ca.jpg.webp" alt="">
+                <div>Lốc 3 chai sữa tươi tiệt trùng Lothamilk sô cô la 180ml</div>
+            </div>
+            <div class="small-item">
+                <img src="https://salt.tikicdn.com/cache/60x60/ts/product/60/e4/4e/31686a07d7828e5bdf824b390a6290ca.jpg.webp" alt="">
+            </div>
+        </div>
+
+        <!-- Cột phải -->
+        <div class="right-column">
+            <div class="product-title">LỐC 3 CHAI SỮA TƯƠI TIỆT TRÙNG LOTHAMILK SÔ CÔ LA 180ML</div>
+            <div class="distributor"><b>Nhà phân phối: </b><strong>Vinamilk</strong></div>
+            <div class="product-description">
+                <strong>Sữa tươi tiệt trùng Lothamilk</strong> sô cô la được chế biến từ sữa bò tươi nguyên chất 100%, rất giàu đạm, bơ sữa, vitamin và khoáng chất cần thiết giúp phát triển chiều cao, duy trì cơ thể khỏe mạnh, minh mẫn và dồi dào sinh lực.
+            </div>
+            <div class="share-buttons">
+                <button>Tweet</button>
+                <button>Facebook</button>
+                <button>Google+</button>
+                <button>Pinterest</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="a">
+        <p class="xanh">CÒN HÀNG</p>
+    </div>
+
+    <div class="price-box"><b style="margin-left:10px;">Giá bán: </b><p class="xanh" style="font-size: 25px; display:inline;">21.000₫</p></div>
+
+    <!----------------API---------------->
+    <!--fb SDK-->
+
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v22.0&appId=1166250038496306"></script>
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '1166250038496306', // Thay bằng App ID của bạn
+                xfbml: true,
+                version: 'v22.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/vi_VN/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!--Hiển thị nút Like-->
+    <div class="fb-like" data-href="https://localhost:7258/milk.html"
+         data-width="80" data-layout="box_count" data-action="like"
+         data-size="small" data-share="true">
+    </div>
+
+    <script>
+
+    </script>
+</body>
+</html>

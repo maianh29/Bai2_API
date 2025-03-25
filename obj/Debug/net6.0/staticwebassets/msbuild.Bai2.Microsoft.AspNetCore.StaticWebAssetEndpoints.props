@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Bai2/milk.aug4mz37t0.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\milk.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"aug4mz37t0"},{"Name":"integrity","Value":"sha256-vp8GMM34I67hqCVdV5ATf9oePwKWG5b8THzc1Q1JyiI="},{"Name":"label","Value":"_content/Bai2/milk.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6131"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022vp8GMM34I67hqCVdV5ATf9oePwKWG5b8THzc1Q1JyiI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 17:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Bai2/milk.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\milk.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vp8GMM34I67hqCVdV5ATf9oePwKWG5b8THzc1Q1JyiI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6131"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022vp8GMM34I67hqCVdV5ATf9oePwKWG5b8THzc1Q1JyiI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 17:49:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

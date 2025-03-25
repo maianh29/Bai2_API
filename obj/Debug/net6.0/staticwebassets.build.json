@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "JX6asFNuVK1NC/EDE19HAokcdpcUYUW+a5/YXGrcjOo=",
+  "Source": "Bai2",
+  "BasePath": "_content/Bai2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Bai2\\wwwroot",
+      "Source": "Bai2",
+      "ContentRoot": "E:\\ki 2\\Lập trình API\\TH\\FB_API\\Bai2\\wwwroot\\",
+      "BasePath": "_content/Bai2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\ki 2\\Lập trình API\\TH\\FB_API\\Bai2\\wwwroot\\milk.html",
+      "SourceId": "Bai2",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ki 2\\Lập trình API\\TH\\FB_API\\Bai2\\wwwroot\\",
+      "BasePath": "_content/Bai2",
+      "RelativePath": "milk#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aug4mz37t0",
+      "Integrity": "vp8GMM34I67hqCVdV5ATf9oePwKWG5b8THzc1Q1JyiI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\milk.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "milk.aug4mz37t0.html",
+      "AssetFile": "E:\\ki 2\\Lập trình API\\TH\\FB_API\\Bai2\\wwwroot\\milk.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vp8GMM34I67hqCVdV5ATf9oePwKWG5b8THzc1Q1JyiI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 17:49:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aug4mz37t0"
+        },
+        {
+          "Name": "label",
+          "Value": "milk.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vp8GMM34I67hqCVdV5ATf9oePwKWG5b8THzc1Q1JyiI="
+        }
+      ]
+    },
+    {
+      "Route": "milk.html",
+      "AssetFile": "E:\\ki 2\\Lập trình API\\TH\\FB_API\\Bai2\\wwwroot\\milk.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vp8GMM34I67hqCVdV5ATf9oePwKWG5b8THzc1Q1JyiI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 17:49:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vp8GMM34I67hqCVdV5ATf9oePwKWG5b8THzc1Q1JyiI="
+        }
+      ]
+    }
+  ]
+}
